@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto&display=swap');
+
+/* 
+Green: #28a745
+Yellow: #F1C439
+*/
+
+/* Manual Colours */
+.green {
+    color: #28a745;
+}
+
+.yellow {
+    color: #F1C439;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+/* Alignments */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+/* backgrounds */
+.greenback {
+    background-color: #28a745;
+}
+
+.greenback h1 {
+    color: #F1C439;
+}
+
+.greenback h2 {
+    color: #F1C439;
+}
+
+.greenback p {
+    color: #ffffff;
+}
+
+.greenback li {
+    color: #ffffff;
+}
+
+.greenback a {
+    color: #F1C439;
+}
+
+.greenback a:visited {
+    color: #F1C439;
+}
+
+.greenback a:hover {
+    color: #F1C439;
+}
+
+.yellowback {
+    background-color: #F1C439;
+}
+
+.yellowback h1 {
+    color: #28a745;
+}
+
+.yellowback h2 {
+    color: #28a745;
+}
+
+.yellowback p {
+    color: #000000;
+}
+
+.yellowback li {
+    color: #000000;
+}
+
+.yellowback a {
+    color: #28a745;
+}
+
+.yellowback a:visited {
+    color: #28a745;
+}
+
+.yellowback a:hover {
+    color: #28a745;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.whiteback h1 {
+    color: #28a745;
+}
+
+.whiteback h2 {
+    color: #28a745;
+}
+
+.whiteback p {
+    color: #28a745;
+}
+
+.whiteback li {
+    color: #28a745;
+}
+
+.whiteback a {
+    color: #28a745;
+}
+
+.whiteback a:visited {
+    color: #28a745;
+}
+
+.whiteback a:hover {
+    color: #28a745;
+}
+
+.blackback {
+    background-color: black;
+}
+
+.blackback h1 {
+    color: #28a745;
+}
+
+.blackback h2 {
+    color: #28a745;
+}
+
+.blackback p {
+    color: #28a745;
+}
+
+.whiteback li {
+    color: #28a745;
+}
+
+.blackback a {
+    color: #28a745;
+}
+
+.blackback a:visited {
+    color: #28a745;
+}
+
+.blackback a:hover {
+    color: #28a745;
+}
+
+/* Paddiing and margins */
+.textdivmargin {
+    padding: 0 0 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.textpad {
+    padding: 0 20px 0 20px;
+}
+
+.botpad {
+    padding-bottom: 10px;
+}
+
+.nopad {
+    padding: 0 0 0 0;
+}
+
+.padded {
+    padding: 15px 15px 15px 15px;
+}
+
+.width {
+    width: 100%;
+}
+
+/* Tag items */
+body {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+nav {
+    background: white;
+}
+
+div {
+    display: block;
+    overflow: hidden;
+    padding: none;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited:hover {
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 26px;
+}
+
+/* Navigation Bar */
+.nonstick {
+    text-align: center;
+    object-fit: contain;
+    background: white;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1px;
+}
+
+.nav-link {
+    vertical-align: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #28a745;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F1C439;
+}
+
+/* Content */
+.main {
+    background: #28a745;
+    margin: 0px 0px 0px 0px;
+    color: #F1C439;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.curved {
+    width: 95%;
+}
+
+.hrgreen {
+    background-color: #28a745;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid #28a745;
+    margin: 0px 0px 0px 0px;
+}
+
+.hryellow {
+    background-color: #F1C439;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid #F1C439;
+    margin: 0px 0px 0px 0px;
+}
+
+.sponsorlogo {
+    width: 95%;
+}
+
+/* Team Section */
+.teamimage {
+    position: relative;
+    text-align: center;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.teamsection:hover .teamimage {
+    opacity:0.3;
+    transition: .5s ease;
+}
+
+.teamcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.teamsection:hover .teamcontent {
+    opacity: 1;
+}
+
+/* Footer items */
+.foot {
+    line-height: 1.5;
+    border-top: 15px solid black;
+}
+
+.social {
+    height: 32px;
+}
+
+.footmap {
+    width: 100%;
+    height: 100%;
+}
